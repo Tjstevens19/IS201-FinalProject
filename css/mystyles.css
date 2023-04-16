@@ -8,6 +8,7 @@ h1 {
 body {
     font-family:'Times New Roman', Times, serif;
     font-size: xx-large;
+    font-weight: bolder;
 }
 .greenfont {
     color: mediumspringgreen;
@@ -17,6 +18,9 @@ body {
 }
 .yellowfont{
     color: khaki;
+}
+.bluefont {
+    color:deepskyblue;
 }
 a {
     color: mediumspringgreen;

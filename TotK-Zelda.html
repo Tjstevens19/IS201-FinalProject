@@ -9,13 +9,19 @@
     <link rel="stylesheet" href="/IS201-FinalProject/css/mystyles.css">
     <link rel="stylesheet" href="/finalProject/startbootstrap-resume-gh-pages/css/mystyles.css">
 </head>
+
+<!-- A custom background color or image -->
 <body id="top" class="homebg greenfont">
-   <!-- Navigation back to the professional-looking pages -->
-<nav><a href="/IS201-FinalProject/index.html">Back to Professional-Looking Page</a></nav>
-<!-- Title -->
-<h1>The Legend of Zelda: Tears of the Kingdom</h1>
+
+<div class="header">
+    <!-- Navigation back to the professional-looking pages -->
+    <nav><a href="/IS201-FinalProject/index.html">Back to Professional-Looking Page</a></nav>
+    <!-- Title -->
+    <h1 class="bluefont">The Legend of Zelda: Tears of the Kingdom</h1>
+</div>
+
 <!-- An unordered list embedded in an ordered list -->
-<div><b>Things to look forward to:</b>
+<b>Things to look forward to:</b>
     <ol>
         <li>New Weapons & Armor
             <ul class="yellowfont">
@@ -28,37 +34,43 @@
         <li>New Powers
             <ul class="yellowfont">
                 <li>Recall<br>
-                    <span><img src="/IS201-FinalProject/img/Recall.jpg" alt="Demonstration of new Recall ability" width="200px"></span></li>
+                    <span><img src="/IS201-FinalProject/img/Recall.jpg" alt="Demonstration of new Recall ability" width="350px"></span></li>
+                    <span><img src="/finalProject/startbootstrap-resume-gh-pages/img/Recall.jpg" alt="Demonstration of new Recall ability" width="350px"></span></li>
                 <li>Fuse<br>
-                    <span><img src="/IS201-FinalProject/img/Fuse.jpg" alt="Demonstration of new Fuse ability" width="200px"></span></li>
+                    <span><img src="/IS201-FinalProject/img/Fuse.jpg" alt="Demonstration of new Fuse ability" width="350px"></span></li>
+                    <span><img src="/finalProject/startbootstrap-resume-gh-pages/img/Fuse.jpg" alt="Demonstration of new Recall ability" width="350px"></span></li>
                 <li>Ultrahand<br>
-                    <span><img src="/IS201-FinalProject/img/Ultrahand.png" alt="Demonstration of new Ultrahand ability" width="200px"></span></li>
+                    <span><img src="/IS201-FinalProject/img/Ultrahand.png" alt="Demonstration of new Ultrahand ability" width="350px"></span></li>
                 <li>Ascend <br>
-                    <span><img src="/IS201-FinalProject/img/Ascend.jpg" alt="Demonstration of new Ascend ability" width="200px"></span></li>
+                    <span><img src="/IS201-FinalProject/img/Ascend.jpg" alt="Demonstration of new Ascend ability" width="350px"></span></li>
             </ul>
         </li>
         <li>New Enemies
             <ul class="yellowfont">
                 <li>Ganondorf<br>
-                    <span><img src="/IS201-FinalProject/img/Ganondorf.jpeg" alt="Photo of Ganondorf" width="200px"></span></li>
+                    <span><img src="/IS201-FinalProject/img/Ganondorf.jpeg" alt="Photo of Ganondorf" width="350px"></span></li>
                 <li>Demise??
                     <br>
-                    <span><img src="/IS201-FinalProject/img/Demise.jpg" alt="Photo of what most people think is Demise" width="200px"></span>
+                    <span><img src="/IS201-FinalProject/img/Demise.jpg" alt="Photo of what most people think is Demise" width="350px"></span>
                 </li>
                 <li>Three-headed Dragon<br>
-                    <span><img src="/IS201-FinalProject/img/Three-Headed-Dragon.webp" alt="Photo of three-headed-dragon" width="200px"></span></li>
+                    <span><img src="/IS201-FinalProject/img/Three-Headed-Dragon.webp" alt="Photo of three-headed-dragon" width="350px"></span></li>
                 <li>Many more...</li>
             </ul>
         </li>
     </ol>
 </div>
+
 <!-- An embedded YouTube video -->
-<h2>Here is the most recent trailer for the game:</h2>
-<div id="youtubeVid">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/uHGShqcAHlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+<center>
+    <div id="youtubeVid" class="videoposition"></div>
+        <h2>Here is the most recent trailer for the game:</h2>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uHGShqcAHlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+</center>
     <!-- A live and interactive embedded Tableau graph (not just a picture of one). -->
-    <label for="tableau-dash"><b>Here is an interactive map of the previous game if you didn't get a chance to explore it and its many collectable items:</b></label>
+    <label for="tableau-dash" class="dashlabel"><b>Here is an interactive map of the previous game if you didn't get a chance to explore it and its many collectable items:</b></label>
     <div class='tableauPlaceholder' id='viz1681527851803' style='position: relative' id="tableau-dash">
         <noscript>
             <a href='#'>
@@ -90,7 +102,9 @@
         scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
         vizElement.parentNode.insertBefore(scriptElement, vizElement);                
         </script>
+    <div class="footer">
         <!-- An on-page anchor -->
         <a href="#top">Back to Top</a>
+    </div>
 </body>
 </html>

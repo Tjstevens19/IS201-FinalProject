@@ -1,4 +1,4 @@
 .homebg {
-    /* background-image: url('/IS201-FinalProject/img/TotK-Background.jpg'); */
-    background-image: url('../img/TotK-Background.jpg')
+    background-image: url('../img/TotK-Background.jpg');
+    background-position: top right;
 }

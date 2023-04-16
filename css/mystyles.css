@@ -2,3 +2,28 @@
     background-image: url('../img/TotK-Background.jpg');
     background-position: top right;
 }
+h1 {
+    color: ivory
+}
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.greenfont {
+    color: mediumspringgreen;
+}
+.ivoryfont {
+    color: ivory
+}
+.yellowfont{
+    color: khaki;
+}
+a {
+    color: mediumspringgreen;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: wavy;
+    font-weight: bold;
+    font-size: 38px;
+}

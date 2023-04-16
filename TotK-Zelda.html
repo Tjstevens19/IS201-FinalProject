@@ -7,15 +7,18 @@
     <title>Tears of the Kingdom</title>
     <!-- A stylesheet that I have created from scratch -->
     <link rel="stylesheet" href="/IS201-FinalProject/css/mystyles.css">
+    <link rel="stylesheet" href="/finalProject/startbootstrap-resume-gh-pages/css/mystyles.css">
 </head>
-<body id="top" class="homebg">
+<body id="top" class="homebg greenfont">
    <!-- Navigation back to the professional-looking pages -->
 <nav><a href="/IS201-FinalProject/index.html">Back to Professional-Looking Page</a></nav>
+<!-- Title -->
+<h1>The Legend of Zelda: Tears of the Kingdom</h1>
 <!-- An unordered list embedded in an ordered list -->
 <div><b>Things to look forward to:</b>
     <ol>
         <li>New Weapons & Armor
-            <ul>
+            <ul class="yellowfont">
                 <li>New Bows</li>
                 <li>New Swords</li>
                 <li>New Shields</li>
@@ -23,7 +26,7 @@
             </ul> 
         </li>
         <li>New Powers
-            <ul>
+            <ul class="yellowfont">
                 <li>Recall<br>
                     <span><img src="/IS201-FinalProject/img/Recall.jpg" alt="Demonstration of new Recall ability" width="200px"></span></li>
                 <li>Fuse<br>
@@ -35,7 +38,7 @@
             </ul>
         </li>
         <li>New Enemies
-            <ul>
+            <ul class="yellowfont">
                 <li>Ganondorf<br>
                     <span><img src="/IS201-FinalProject/img/Ganondorf.jpeg" alt="Photo of Ganondorf" width="200px"></span></li>
                 <li>Demise??
@@ -49,7 +52,11 @@
         </li>
     </ol>
 </div>
-
+<!-- An embedded YouTube video -->
+<label for="youtubeVid">Here is the most recent trailer for the game:</label>
+<div id="youtubeVid">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/uHGShqcAHlQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
     <!-- A live and interactive embedded Tableau graph (not just a picture of one). -->
     <label for="tableau-dash"><b>Here is an interactive map of the previous game if you didn't get a chance to explore it and its many collectable items:</b></label>
     <div class='tableauPlaceholder' id='viz1681527851803' style='position: relative' id="tableau-dash">
@@ -83,6 +90,7 @@
         scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
         vizElement.parentNode.insertBefore(scriptElement, vizElement);                
         </script>
+        <!-- An on-page anchor -->
         <a href="#top">Back to Top</a>
 </body>
 </html>
